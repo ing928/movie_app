@@ -1,6 +1,4 @@
 .movies .movie {
-  display: flex;
-  align-items: flex-start;
   background-color: #665b61;
   width: 45%;
   margin-bottom: 70px;
@@ -10,6 +8,13 @@
     0 8px 16px -8px rgba(243, 233, 233, 0.3),
     0 -6px 16px -6px rgba(243, 235, 235, 0.025);
   border-radius: 10px;
+}
+
+.movies .movie a {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color: inherit;
 }
 
 .movie img {

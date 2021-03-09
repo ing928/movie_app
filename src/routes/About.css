@@ -1,0 +1,21 @@
+.about__container {
+  background-color: #665b61;
+  margin-top: 100px;
+  width: 575px;
+  height: 200px;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 13px 27px -5px rgba(208, 208, 224, 0.25),
+    0 8px 16px -8px rgba(243, 233, 233, 0.3),
+    0 -6px 16px -6px rgba(243, 235, 235, 0.025);
+}
+
+.about__container p {
+  color: #e8dbd5;
+  font-size: 20px;
+  margin: 0;
+}
+
+.about__container p:last-child {
+  margin-top: 5px;
+}

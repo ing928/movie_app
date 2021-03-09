@@ -1,0 +1,25 @@
+.nav {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__h,
+.nav__a {
+  background-color: #665b61;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 8px 8px 0px rgba(208, 208, 224, 0.25),
+    0 8px 8px -8px rgba(243, 233, 233, 0.3),
+    0 8px 16px -6px rgba(243, 235, 235, 0.025);
+}
+
+.nav a {
+  color: #e8dbd5;
+  text-decoration: none;
+  font-size: 20px;
+}

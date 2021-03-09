@@ -3,40 +3,9 @@
 }
 
 body {
-  background-color: #1f1f20;
   margin: 0;
   padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #1f1f20;
   height: 100%;
-}
-
-html,
-body,
-#root,
-.container {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.loader {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader__text {
-  color: white;
-  font-size: 16px;
-}
-
-.movies {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 50px;
-  width: 80%;
-  padding-top: 70px;
 }
